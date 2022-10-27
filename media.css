@@ -1,0 +1,45 @@
+@media (max-width: 576px) {
+    .header{
+        background: url('./img/fon.png')
+    }
+    .navbar {
+        background:transparent }
+    
+        .hero-title{
+            line-height: normal;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        font-size: 34px;
+        margin-top: 90px;
+    }
+    
+    .hero__card {
+        display: none;
+}
+}
+@media (max-width: 768px) {
+    .header{
+
+    }
+}
+
+.images{
+    margin-top: 25px;
+    justify-content: center;
+    margin-left: 85px;
+}
+
+.ts__block-title{
+    display: none;
+}
+
+.words{
+    display: none;
+}
+
+.we-are{
+  margin-left: 45px;
+}
+  

@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: url('./img/fon.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    background: transparent !important;
+    position: fixed !important;
+    width: 100%;
+    z-index: 3;
+
+}
+
+.fewjfejwfew {
+    background: lightgreen !important;
+}
+
+.navbar-active {
+    background: lightgray !important;
+    position: fixed;
+
+}
+
+.navbar-list {
+    gap: 50px;
+}
+
+
+.navbar-list a {
+    gap: 80px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+
+.hero {
+    padding-top: 47px;
+}
+
+
+.hero-title {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+
+    font-size: 80px;
+    line-height: 108px;
+    text-transform: capitalize;
+    color: #FFFAF7;
+    text-shadow: 0px 2.38123px 7.1437px rgba(0, 0, 0, 0.25);
+}
+
+.hero__card {
+    display: block;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(5px);
+    border-radius: 16px;
+    padding: 32px;
+    width: 534px;
+}
+
+.hc__block {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hero__card h2 {
+    margin-bottom: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #15594D;
+}
+
+
+
+.hc__block input,
+textarea {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #767676;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(5px);
+    border-radius: 6px;
+    padding: 12px;
+}
+
+
+.hero__card-btn {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background-color: #15594D;
+}
+
+
+.about-section {
+    padding: 100px 0;
+}
+
+
+
+.as__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F8F6F4;
+    border-radius: 18px;
+    padding: 20px 13px 20px 24px;
+    text-align: center;
+    height: 298px;
+}
+
+.as__card img {
+    margin-bottom: 15px;
+}
+
+
+
+.as-title {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    color: #000000;
+}
+
+
+
+
+.tomato-section {
+    padding: 124px 0 100px 0;
+}
+
+
+.ts__block-title {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000000;
+}
+
+.tomato {
+    width: 100%;
+}
+
+.ts__card h2 {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 200%;
+    color: #9C5642;
+}
+
+.ts__card p {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #564E4E;
+}
+
+.room-section {
+    padding-bottom: 100px;
+}
+
+.rs__block-title {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    color: #000000;
+    margin-bottom: 80px;
+}
+
+
+.rs__block>img {
+    width: 100%;
+}
+
+.rsb__card {
+    position: relative;
+}
+
+.rsb__detail {
+    background: #15594D;
+    border-radius: 8px;
+    padding: 16px 16px 24px 20px;
+    width: 293px;
+    scale: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.rsb__card:hover .rsb__card-img {
+    scale: 1.2;
+    transition: all .7s;
+}
+
+.rsb__card:hover .rsb__detail {
+    scale: 1;
+    transition: all .7s;
+}
+
+
+.rsb__detail h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFF1EA;
+}
+
+
+
+
+.rsb__detail h2 {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 32px;
+    color: #F8F6F4;
+}
+
+
+
+.programist-secton {
+    padding: 0 0 100px 0;
+}
+
+.programist-secton h3 {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    color: #000000;
+}
+
+
+.cotacts-section {
+    padding-bottom: 135px;
+}
+
+.cs-title {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    color: #000000;
+    margin-bottom: 78px;
+}
+
+
+.cs-subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 66px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 134px;
+}
+
+.csb__list {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.cs__block img {
+    width: 100%;
+}
+
+.csb__list-item {
+    list-style-type: none;
+    ;
+}
+
+.csb__list-item h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26.2044px;
+    line-height: 32px;
+
+    color: #15594D;
+
+    opacity: 0.5;
+}
+
+
+
+
+.csb__list-item a {
+    font-family: 'Montserrat';
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+
+
+
+.fs_TiTle h3 {
+    margin-bottom: 24px;
+    display: flex;
+    gap: 100px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+
+.fs_TiTle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.fs-img {
+    width: 180px;
+    height: 90px;
+}
+
+
+
+.fs_sub {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.fs_TiTle {
+    margin-left: 86px;
+}
+
+.images{
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.ts__block-title{
+    display: block;
+}
+
+.words{
+    display: block;
+}
+
+.we-are{
+    text-align: center;
+}
